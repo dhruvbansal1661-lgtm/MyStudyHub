@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mystudyhub
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn Main:app
