@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="MyStudyHub - Your personal study dashboard"
+    >
+
+    <title>MyStudyHub</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+<!-- =========================================================
+     APP
+========================================================= -->
+
+<div class="app">
+
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                📚
+            </div>
+
+            <div>
+
+                <h1>MyStudyHub</h1>
+
+                <span>
+                    Study smarter
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <nav class="sidebar-nav">
+
+            <button
+                class="nav-item active"
+                data-section="dashboard"
+            >
+                <span>🏠</span>
+                <span>Dashboard</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="resources"
+            >
+                <span>📚</span>
+                <span>Resources</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="subjects"
+            >
+                <span>🧠</span>
+                <span>Subjects</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="planner"
+            >
+                <span>📅</span>
+                <span>Study Planner</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="notes"
+            >
+                <span>📝</span>
+                <span>Notes</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="timer"
+            >
+                <span>⏱️</span>
+                <span>Focus Timer</span>
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-section="progress"
+            >
+                <span>📈</span>
+                <span>Progress</span>
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-divider"></div>
+
+
+        <div class="sidebar-bottom">
+
+            <button
+                id="themeButton"
+                class="nav-item"
+            >
+                🌙
+                <span>Dark Mode</span>
+            </button>
+
+
+            <button
+                id="aboutButton"
+                class="nav-item"
+            >
+                ℹ️
+                <span>About</span>
+            </button>
+
+        </div>
+
+
+        <div class="sidebar-footer">
+
+            <div class="mini-avatar">
+                S
+            </div>
+
+            <div>
+
+                <strong>Student</strong>
+
+                <span>
+                    Keep learning 🚀
+                </span>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="main">
+
+
+        <!-- =================================================
+             TOPBAR
+        ================================================== -->
+
+        <header class="topbar">
+
+            <div class="mobile-brand">
+
+                📚 MyStudyHub
+
+            </div>
+
+
+            <button
+                id="mobileMenuButton"
+                class="mobile-menu"
+            >
+                ☰
+            </button>
+
+
+            <div class="topbar-search">
+
+                <span>🔎</span>
+
+                <input
+                    id="globalSearch"
+                    type="text"
+                    placeholder="Search resources, subjects, topics..."
+                >
+
+                <kbd>/</kbd>
+
+            </div>
+
+
+            <div class="topbar-actions">
+
+                <button
+                    id="notificationButton"
+                    class="icon-button"
+                    title="Notifications"
+                >
+                    🔔
+                </button>
+
+
+                <button
+                    id="profileButton"
+                    class="profile-button"
+                >
+
+                    <span class="avatar">
+                        S
+                    </span>
+
+                    <span class="profile-name">
+                        Student
+                    </span>
+
+                </button>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =================================================
+             CONTENT
+        ================================================== -->
+
+        <div class="content">
+
+
+            <!-- =================================================
+                 DASHBOARD
+            ================================================== -->
+
+            <section
+                id="dashboard"
+                class="page-section active-section"
+            >
+
+                <div class="welcome-row">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            STUDENT DASHBOARD
+                        </p>
+
+                        <h2>
+                            Welcome back 👋
+                        </h2>
+
+                        <p class="welcome-text">
+                            Everything you need to learn,
+                            organize and track your studies.
+                        </p>
+
+                    </div>
+
+
+                    <div class="date-card">
+
+                        <span>
+                            TODAY
+                        </span>
+
+                        <strong id="todayDate">
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- HERO -->
+
+                <div class="hero">
+
+                    <div class="hero-content">
+
+                        <span class="hero-badge">
+                            🚀 Your learning space
+                        </span>
+
+                        <h2>
+                            Study smarter.
+                            <br>
+                            Learn better.
+                        </h2>
+
+                        <p>
+                            Access your resources, organize
+                            your study sessions and track
+                            your progress — all in one place.
+                        </p>
+
+
+                        <div class="hero-buttons">
+
+                            <button
+                                class="primary-button"
+                                data-go="resources"
+                            >
+                                Explore Resources →
+                            </button>
+
+                            <button
+                                class="secondary-button"
+                                data-go="timer"
+                            >
+                                Start Focus Session
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="hero-visual">
+
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+
+                        <div class="hero-book">
+                            📚
+                        </div>
+
+                        <div class="floating-card card-a">
+                            🧠
+                            <span>Learn</span>
+                        </div>
+
+                        <div class="floating-card card-b">
+                            ⭐
+                            <span>Improve</span>
+                        </div>
+
+                        <div class="floating-card card-c">
+                            📈
+                            <span>Grow</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- STATS -->
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon purple">
+                            📚
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Resources
+                            </span>
+
+                            <strong id="resourceCount">
+                                0
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon blue">
+                            ⭐
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Bookmarks
+                            </span>
+
+                            <strong id="favoriteCount">
+                                0
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon green">
+                            🔥
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Study Streak
+                            </span>
+
+                            <strong>
+                                <span id="streakCount">
+                                    1
+                                </span>
+                                days
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon orange">
+                            ⏱️
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Focus Time
+                            </span>
+
+                            <strong id="focusMinutes">
+                                0 min
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- QUICK ACTIONS -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            QUICK ACCESS
+                        </p>
+
+                        <h3>
+                            What do you want to do?
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quick-grid">
+
+                    <button
+                        class="quick-card purple-card"
+                        data-go="resources"
+                    >
+
+                        <span class="quick-icon">
+                            🔎
+                        </span>
+
+                        <strong>
+                            Find Resources
+                        </strong>
+
+                        <small>
+                            Search your study library
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="quick-card blue-card"
+                        data-go="planner"
+                    >
+
+                        <span class="quick-icon">
+                            📅
+                        </span>
+
+                        <strong>
+                            Plan Your Day
+                        </strong>
+
+                        <small>
+                            Organize your study tasks
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="quick-card green-card"
+                        data-go="notes"
+                    >
+
+                        <span class="quick-icon">
+                            📝
+                        </span>
+
+                        <strong>
+                            Write Notes
+                        </strong>
+
+                        <small>
+                            Save ideas and revision notes
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="quick-card orange-card"
+                        data-go="timer"
+                    >
+
+                        <span class="quick-icon">
+                            ⏱️
+                        </span>
+
+                        <strong>
+                            Focus
+                        </strong>
+
+                        <small>
+                            Start a Pomodoro session
+                        </small>
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- FEATURED -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            FEATURED
+                        </p>
+
+                        <h3>
+                            Start learning
+                        </h3>
+
+                    </div>
+
+                    <button
+                        class="text-button"
+                        data-go="resources"
+                    >
+                        View all →
+                    </button>
+
+                </div>
+
+
+                <div class="featured-grid">
+
+                    <div class="featured-card science-feature">
+
+                        <div class="featured-icon">
+                            🔬
+                        </div>
+
+                        <div>
+
+                            <span>
+                                SCIENCE
+                            </span>
+
+                            <h3>
+                                Explore Science
+                            </h3>
+
+                            <p>
+                                Discover NCERT science
+                                resources and explanations.
+                            </p>
+
+                            <button
+                                data-go="resources"
+                                class="featured-button"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="featured-card physics-feature">
+
+                        <div class="featured-icon">
+                            ⚛️
+                        </div>
+
+                        <div>
+
+                            <span>
+                                PHYSICS
+                            </span>
+
+                            <h3>
+                                Master Physics
+                            </h3>
+
+                            <p>
+                                Find resources for motion,
+                                force, energy and more.
+                            </p>
+
+                            <button
+                                data-go="resources"
+                                class="featured-button"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- =================================================
+                 RESOURCES
+            ================================================== -->
+
+            <section
+                id="resources"
+                class="page-section"
+            >
+
+                <div class="page-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            RESOURCE LIBRARY
+                        </p>
+
+                        <h2>
+                            Study Resources
+                        </h2>
+
+                        <p>
+                            Find textbooks, solutions,
+                            chapters and study material.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-toolbar">
+
+                    <div class="resource-search">
+
+                        🔎
+
+                        <input
+                            id="search"
+                            type="text"
+                            placeholder="Search resources..."
+                        >
+
+                    </div>
+
+
+                    <select id="classFilter">
+
+                        <option value="all">
+                            All Classes
+                        </option>
+
+                        <option value="9">
+                            Class 9
+                        </option>
+
+                        <option value="10">
+                            Class 10
+                        </option>
+
+                        <option value="11">
+                            Class 11
+                        </option>
+
+                        <option value="12">
+                            Class 12
+                        </option>
+
+                    </select>
+
+
+                    <select id="sourceFilter">
+
+                        <option value="all">
+                            All Sources
+                        </option>
+
+                        <option value="NCERT">
+                            NCERT
+                        </option>
+
+                        <option value="Physics Wallah">
+                            Physics Wallah
+                        </option>
+
+                    </select>
+
+
+                    <select id="sortFilter">
+
+                        <option value="default">
+                            Sort: Default
+                        </option>
+
+                        <option value="title">
+                            Sort: Title
+                        </option>
+
+                        <option value="subject">
+                            Sort: Subject
+                        </option>
+
+                        <option value="source">
+                            Sort: Source
+                        </option>
+
+                        <option value="class">
+                            Sort: Class
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="resource-meta">
+
+                    <span id="resultCount">
+                        0 resources
+                    </span>
+
+                    <button
+                        id="clearSearch"
+                        class="text-button"
+                    >
+                        Clear filters
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="results"
+                    class="resource-grid"
+                >
+
+                    <div class="loading">
+                        Loading resources...
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- =================================================
+                 SUBJECTS
+            ================================================== -->
+
+            <section
+                id="subjects"
+                class="page-section"
+            >
+
+                <div class="page-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            LEARNING
+                        </p>
+
+                        <h2>
+                            Subjects
+                        </h2>
+
+                        <p>
+                            Explore your subjects and
+                            find relevant resources.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="subject-grid">
+
+                    <button
+                        class="subject-card"
+                        data-subject="Science"
+                    >
+
+                        <div class="subject-icon science">
+                            🔬
+                        </div>
+
+                        <h3>
+                            Science
+                        </h3>
+
+                        <p>
+                            Physics, Chemistry and Biology
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="subject-card"
+                        data-subject="Physics"
+                    >
+
+                        <div class="subject-icon physics">
+                            ⚛️
+                        </div>
+
+                        <h3>
+                            Physics
+                        </h3>
+
+                        <p>
+                            Motion, force, energy and more
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="subject-card"
+                        data-subject="Mathematics"
+                    >
+
+                        <div class="subject-icon mathematics">
+                            📐
+                        </div>
+
+                        <h3>
+                            Mathematics
+                        </h3>
+
+                        <p>
+                            Algebra, geometry and numbers
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="subject-card"
+                        data-subject="English"
+                    >
+
+                        <div class="subject-icon english">
+                            📖
+                        </div>
+
+                        <h3>
+                            English
+                        </h3>
+
+                        <p>
+                            Literature and language
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="subject-card"
+                        data-subject="Biology"
+                    >
+
+                        <div class="subject-icon biology">
+                            🧬
+                        </div>
+
+                        <h3>
+                            Biology
+                        </h3>
+
+                        <p>
+                            Cells, organisms and life
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="subject-card"
+                        data-subject="Computer"
+                    >
+
+                        <div class="subject-icon computer">
+                            💻
+                        </div>
+
+                        <h3>
+                            Computer Science
+                        </h3>
+
+                        <p>
+                            Programming and technology
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- =================================================
+                 PLANNER
+            ================================================== -->
+
+            <section
+                id="planner"
+                class="page-section"
+            >
+
+                <div class="page-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            ORGANIZE
+                        </p>
+
+                        <h2>
+                            Study Planner
+                        </h2>
+
+                        <p>
+                            Plan what you want to accomplish.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="planner-layout">
+
+                    <div class="planner-card">
+
+                        <div class="card-heading">
+
+                            <div>
+
+                                <h3>
+                                    Today's Tasks
+                                </h3>
+
+                                <p>
+                                    Stay organized
+                                </p>
+
+                            </div>
+
+                            <span
+                                id="taskProgress"
+                                class="progress-label"
+                            >
+                                0%
+                            </span>
+
+                        </div>
+
+
+                        <div class="progress-bar">
+
+                            <div
+                                id="taskProgressBar"
+                                class="progress-fill"
+                                style="width:0%"
+                            ></div>
+
+                        </div>
+
+
+                        <div
+                            id="taskList"
+                            class="task-list"
+                        ></div>
+
+
+                        <form
+                            id="taskForm"
+                            class="task-form"
+                        >
+
+                            <input
+                                id="taskInput"
+                                type="text"
+                                placeholder="Add a study task..."
+                                maxlength="100"
+                            >
+
+                            <button
+                                type="submit"
+                            >
+                                Add
+                            </button>
+
+                        </form>
+
+                    </div>
+
+
+                    <div class="planner-side">
+
+                        <div class="goal-card">
+
+                            <span>
+                                🎯 DAILY GOAL
+                            </span>
+
+                            <strong>
+                                3 tasks
+                            </strong>
+
+                            <p>
+                                Complete your planned
+                                tasks today.
+                            </p>
+
+                        </div>
+
+
+                        <div class="tip-card">
+
+                            <span>
+                                💡 STUDY TIP
+                            </span>
+
+                            <p id="studyTip">
+                                Break difficult topics
+                                into smaller sections.
+                            </p>
+
+                            <button
+                                id="newTip"
+                                class="text-button"
+                            >
+                                New tip
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 NOTES
+            ================================================== -->
+
+            <section
+                id="notes"
+                class="page-section"
+            >
+
+                <div class="page-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            PERSONAL SPACE
+                        </p>
+
+                        <h2>
+                            My Notes
+                        </h2>
+
+                        <p>
+                            Write and save your revision notes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="notes-layout">
+
+                    <div class="notes-sidebar">
+
+                        <button
+                            id="newNoteButton"
+                            class="primary-button full-button"
+                        >
+                            + New Note
+                        </button>
+
+
+                        <div
+                            id="notesList"
+                            class="notes-list"
+                        ></div>
+
+                    </div>
+
+
+                    <div class="note-editor">
+
+                        <input
+                            id="noteTitle"
+                            class="note-title"
+                            type="text"
+                            placeholder="Note title..."
+                        >
+
+
+                        <textarea
+                            id="noteContent"
+                            placeholder="Start writing..."
+                        ></textarea>
+
+
+                        <div class="note-footer">
+
+                            <span id="noteSaved">
+                                Ready
+                            </span>
+
+                            <button
+                                id="saveNote"
+                                class="primary-button"
+                            >
+                                Save Note
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 TIMER
+            ================================================== -->
+
+            <section
+                id="timer"
+                class="page-section"
+            >
+
+                <div class="page-header centered">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            FOCUS
+                        </p>
+
+                        <h2>
+                            Focus Timer
+                        </h2>
+
+                        <p>
+                            Work in focused sessions with
+                            regular breaks.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timer-container">
+
+                    <div class="timer-ring">
+
+                        <div class="timer-inner">
+
+                            <span id="timerMode">
+                                FOCUS
+                            </span>
+
+                            <strong id="timerDisplay">
+                                25:00
+                            </strong>
+
+                            <small>
+                                minutes
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timer-controls">
+
+                        <button
+                            id="startTimer"
+                            class="primary-button"
+                        >
+                            ▶ Start
+                        </button>
+
+                        <button
+                            id="pauseTimer"
+                            class="secondary-button"
+                        >
+                            ⏸ Pause
+                        </button>
+
+                        <button
+                            id="resetTimer"
+                            class="secondary-button"
+                        >
+                            ↻ Reset
+                        </button>
+
+                    </div>
+
+
+                    <div class="timer-presets">
+
+                        <button
+                            data-minutes="25"
+                            class="timer-preset active"
+                        >
+                            25 min
+                        </button>
+
+                        <button
+                            data-minutes="15"
+                            class="timer-preset"
+                        >
+                            15 min
+                        </button>
+
+                        <button
+                            data-minutes="5"
+                            class="timer-preset"
+                        >
+                            5 min
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 PROGRESS
+            ================================================== -->
+
+            <section
+                id="progress"
+                class="page-section"
+            >
+
+                <div class="page-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            YOUR JOURNEY
+                        </p>
+
+                        <h2>
+                            Progress
+                        </h2>
+
+                        <p>
+                            See how consistently you're studying.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="progress-dashboard">
+
+                    <div class="big-progress-card">
+
+                        <span>
+                            TODAY'S COMPLETION
+                        </span>
+
+                        <strong id="bigCompletion">
+                            0%
+                        </strong>
+
+                        <div class="large-progress">
+
+                            <div
+                                id="bigProgressBar"
+                                style="width:0%"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="achievement-card">
+
+                        <div class="achievement-icon">
+                            🏆
+                        </div>
+
+                        <div>
+
+                            <span>
+                                ACHIEVEMENT
+                            </span>
+
+                            <h3>
+                                Keep Going!
+                            </h3>
+
+                            <p>
+                                Consistency is built one
+                                session at a time.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="achievement-grid">
+
+                    <div class="achievement">
+
+                        <span>
+                            🔥
+                        </span>
+
+                        <strong>
+                            First Session
+                        </strong>
+
+                        <small>
+                            Start studying
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement">
+
+                        <span>
+                            ⭐
+                        </span>
+
+                        <strong>
+                            Bookmarker
+                        </strong>
+
+                        <small>
+                            Save a resource
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement">
+
+                        <span>
+                            📝
+                        </span>
+
+                        <strong>
+                            Note Maker
+                        </strong>
+
+                        <small>
+                            Write a note
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement">
+
+                        <span>
+                            ⏱️
+                        </span>
+
+                        <strong>
+                            Focused
+                        </strong>
+
+                        <small>
+                            Complete a timer
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FOOTER
+        ====================================================== -->
+
+        <footer class="footer">
+
+            <div>
+
+                <strong>
+                    📚 MyStudyHub
+                </strong>
+
+                <span>
+                    Your personal learning dashboard.
+                </span>
+
+            </div>
+
+
+            <span>
+                Built for learning • 2026
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+
+<!-- =========================================================
+     TOAST
+========================================================= -->
+
+<div
+    id="toast"
+    class="toast"
+>
+    <span id="toastIcon">
+        ✓
+    </span>
+
+    <span id="toastMessage">
+        Done
+    </span>
+</div>
+
+
+
+<!-- =========================================================
+     MODAL
+========================================================= -->
+
+<div
+    id="modalOverlay"
+    class="modal-overlay"
+>
+
+    <div class="modal">
+
+        <button
+            id="closeModal"
+            class="modal-close"
+        >
+            ×
+        </button>
+
+        <div class="modal-icon">
+            📚
+        </div>
+
+        <h2>
+            About MyStudyHub
+        </h2>
+
+        <p>
+            MyStudyHub is a personal study dashboard
+            designed to organize learning resources,
+            notes, tasks and focus sessions.
+        </p>
+
+        <button
+            id="modalOkay"
+            class="primary-button"
+        >
+            Got it
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<script
+    src="{{ url_for('static', filename='script.js') }}"
+></script>
+
+</body>
+
+</html>

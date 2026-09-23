@@ -1,0 +1,718 @@
+[
+  {
+    "id": "ncert9-science-book",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Exploration - Science Textbook",
+    "topic": "Full Book",
+    "type": "Textbook",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch01",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 1 - Exploration: Entering the World of Secondary Science",
+    "topic": "Scientific Exploration",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch02",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 2 - Cell: The Building Block of Life",
+    "topic": "Cell",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch03",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 3 - Tissues in Action",
+    "topic": "Tissues",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch04",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 4 - Describing Motion Around Us",
+    "topic": "Motion",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch05",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 5 - Exploring Mixtures and Their Separation",
+    "topic": "Mixtures",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch06",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 6 - How Forces Affect Motion",
+    "topic": "Force",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch07",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 7 - Work, Energy, and Simple Machines",
+    "topic": "Work and Energy",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch08",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 8 - Journey Inside the Atom",
+    "topic": "Atoms",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch09",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 9 - Atomic Foundations of Matter",
+    "topic": "Atoms and Molecules",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch10",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 10 - Sound Waves: Characteristics and Applications",
+    "topic": "Sound",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch11",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 11 - Reproduction: How Life Continues",
+    "topic": "Reproduction",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch12",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 12 - Patterns in Life: Diversity and Classification",
+    "topic": "Diversity",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-ch13",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Chapter 13 - Earth as a System: Energy, Matter, and Life",
+    "topic": "Earth System",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-maths-book",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Ganita Manjari - Mathematics Grade 9",
+    "topic": "Full Book",
+    "type": "Textbook",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch01",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 1 - Orienting Yourself: The Use of Coordinates",
+    "topic": "Coordinates",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch02",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 2 - Introduction to Linear Polynomials",
+    "topic": "Linear Polynomials",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch03",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 3 - The World of Numbers",
+    "topic": "Numbers",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch04",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 4 - Exploring Algebraic Identities",
+    "topic": "Algebra",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch05",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 5 - I'm Up and Down, and Round and Round",
+    "topic": "Mathematics",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch06",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 6 - Mensuration: Perimeter, Area and Volume",
+    "topic": "Mensuration",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch07",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 7 - The Mathematics of Maybe: Introduction to Probability",
+    "topic": "Probability",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-ch08",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Chapter 8 - Predicting What Comes Next: Exploring Sequences and Progressions",
+    "topic": "Sequences",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-sst-book",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Understanding Society: India and Beyond - Part 1",
+    "topic": "Full Book",
+    "type": "Textbook",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch01",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 1 - Understanding Social Science",
+    "topic": "Social Science",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch02",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 2 - Shaping of the Earth's Surface",
+    "topic": "Geography",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch03",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 3 - Atmosphere and Climate",
+    "topic": "Climate",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch04",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 4 - Early Humans and Beginning of Civilisation",
+    "topic": "History",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch05",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 5 - State and Society up to 1000 CE",
+    "topic": "History",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch06",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 6 - India and the World",
+    "topic": "History and Geography",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch07",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 7 - Democracy and Its Foundations",
+    "topic": "Democracy",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch08",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 8 - Elections and Representation",
+    "topic": "Elections",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-ch09",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Chapter 9 - Markets and Economic Life",
+    "topic": "Economics",
+    "type": "Chapter",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-science-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Science - Full Book Revision",
+    "topic": "Revision",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-cell-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Cell - Revision Resource",
+    "topic": "Cell",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-tissues-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Tissues - Revision Resource",
+    "topic": "Tissues",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-motion-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Motion - Revision Resource",
+    "topic": "Motion",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-force-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Force - Revision Resource",
+    "topic": "Force",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-energy-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Work Energy and Simple Machines - Revision",
+    "topic": "Work and Energy",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-atom-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Atoms - Revision Resource",
+    "topic": "Atoms",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-sound-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Sound - Revision Resource",
+    "topic": "Sound",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-reproduction-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Reproduction - Revision Resource",
+    "topic": "Reproduction",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-diversity-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Diversity and Classification - Revision",
+    "topic": "Diversity",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-earth-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Earth as a System - Revision",
+    "topic": "Earth System",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-maths-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Mathematics - Full Book Revision",
+    "topic": "Revision",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-coordinates-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Coordinates - Revision Resource",
+    "topic": "Coordinates",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-polynomials-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Linear Polynomials - Revision",
+    "topic": "Linear Polynomials",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-numbers-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "The World of Numbers - Revision",
+    "topic": "Numbers",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-algebra-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Algebraic Identities - Revision",
+    "topic": "Algebra",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-mensuration-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Mensuration - Revision",
+    "topic": "Mensuration",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-probability-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Probability - Revision",
+    "topic": "Probability",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-maths-sequences-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Sequences and Progressions - Revision",
+    "topic": "Sequences",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-sst-revision",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Social Science - Full Book Revision",
+    "topic": "Revision",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-geography",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Shaping of the Earth's Surface - Revision",
+    "topic": "Geography",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-climate",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Atmosphere and Climate - Revision",
+    "topic": "Climate",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-civilisation",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Early Humans and Civilisation - Revision",
+    "topic": "History",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-state-society",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "State and Society up to 1000 CE - Revision",
+    "topic": "History",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-democracy",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Democracy and Its Foundations - Revision",
+    "topic": "Democracy",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-elections",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Elections and Representation - Revision",
+    "topic": "Elections",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-sst-markets",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Markets and Economic Life - Revision",
+    "topic": "Economics",
+    "type": "Revision",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+
+  {
+    "id": "ncert9-practice-science",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Science - Textbook Practice",
+    "topic": "Practice",
+    "type": "Practice",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-practice-maths",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Mathematics",
+    "title": "Mathematics - Textbook Practice",
+    "topic": "Practice",
+    "type": "Practice",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-practice-sst",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Social Science",
+    "title": "Social Science - Textbook Practice",
+    "topic": "Practice",
+    "type": "Practice",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-activity",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Science - Activities and Experiments",
+    "topic": "Activities",
+    "type": "Activity",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-inquiry",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Science - Inquiry and Observation",
+    "topic": "Scientific Inquiry",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-matter",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Mixtures and Separation - Learning Resource",
+    "topic": "Mixtures",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-physics",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Motion and Force - Learning Resource",
+    "topic": "Physics",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-chemistry",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Atoms and Matter - Learning Resource",
+    "topic": "Chemistry",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-biology",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Cells and Life - Learning Resource",
+    "topic": "Biology",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-science-earth",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "Science",
+    "title": "Earth System - Learning Resource",
+    "topic": "Earth Science",
+    "type": "Learning Resource",
+    "url": "https://ncert.nic.in/textbook.php"
+  },
+  {
+    "id": "ncert9-all-syllabus",
+    "class": 9,
+    "source": "NCERT",
+    "subject": "All Subjects",
+    "title": "Grade 9 2026-27 Curriculum",
+    "topic": "Syllabus",
+    "type": "Syllabus",
+    "url": "https://ncert.nic.in/pdf/announcement/Syllabus_Secondary_Stage_Phase_I_Grade_9_Part_2.pdf"
+  }
+]
